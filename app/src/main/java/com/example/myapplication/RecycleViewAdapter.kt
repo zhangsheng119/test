@@ -20,11 +20,11 @@ class RecycleViewAdapter(private val textList: ArrayList<String>) :
         val view =
             LayoutInflater.from(parent.context).inflate(R.layout.layout, parent, false)
         return MyHolder(view)
-        //测试
+        //测试不再叙述gdjmkgjkldf
     }
 
     override fun onBindViewHolder(holder: MyHolder, position: Int) {
-        holder.title.text = textList[position];
+        holder.title.text = textList[position]
         holder.title.setOnClickListener { Toast.makeText(holder.title.context,textList[position],Toast.LENGTH_LONG).show() }
 
     }
