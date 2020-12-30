@@ -20,7 +20,7 @@ class RecycleViewAdapter(private val textList: ArrayList<String>) :
         val view =
             LayoutInflater.from(parent.context).inflate(R.layout.layout, parent, false)
         return MyHolder(view)
-        //测试不再叙述gdjmkgjkldf
+
     }
 
     override fun onBindViewHolder(holder: MyHolder, position: Int) {
