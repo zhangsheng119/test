@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.bluetooth.BluetoothAdapter
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -32,6 +33,9 @@ class MainActivity : AppCompatActivity() {
         recycleView?.layoutManager = layoutManager
         val recycleViewAdapter: RecycleViewAdapter = RecycleViewAdapter(textList)
         recycleView?.adapter = recycleViewAdapter
+       val singleton: Singleton= Singleton.getInstance()
+
+
 
     }
 
