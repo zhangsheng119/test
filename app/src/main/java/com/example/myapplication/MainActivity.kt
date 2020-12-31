@@ -34,9 +34,7 @@ class MainActivity : AppCompatActivity() {
         val recycleViewAdapter: RecycleViewAdapter = RecycleViewAdapter(textList)
         recycleView?.adapter = recycleViewAdapter
 //       val singleton: Singleton= Singleton.getInstance()
-//测试指令提交
 
-           ///
 
     }
 
